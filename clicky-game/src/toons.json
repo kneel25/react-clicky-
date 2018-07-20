@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Bugs Bunny",
+        "image": "/img/bugs.png",
+        "count": 0
+    },
+    {
+        "id": 2,
+        "name": "Daffy Duck",
+        "image": "/img/daffy.png",
+        "count": 0
+    },
+    {
+        "id": 3,
+        "name": "Foghorn Leghorn",
+        "image": "/img/foghorn.png",
+        "count": 0
+    },
+    {
+        "id": 4,
+        "name": "Marvin The Martian",
+        "image": "/img/marvin.png",
+        "count": 0
+    },
+    {
+        "id": 5,
+        "name": "Pepé Le Pew",
+        "image": "/img/pepe.png",
+        "count": 0
+    },
+    {
+        "id": 6,
+        "name": "Porky Pig",
+        "image": "/img/porky.png",
+        "count": 0
+    },
+    {
+        "id": 7,
+        "name": "Road Runner",
+        "image": "/img/roadrunner.png",
+        "count": 0
+    },
+    {
+        "id": 8,
+        "name": "Yosemite Sam",
+        "image": "/img/sam.png",
+        "count": 0
+    },
+    {
+        "id": 9,
+        "name": "Slyvester ",
+        "image": "/img/sly.png",
+        "count": 0
+    },
+    {
+        "id": 10,
+        "name": "Speedy Gonzales",
+        "image": "/img/speedy.png",
+        "count": 0
+    },
+    {
+        "id": 11,
+        "name": "Tazmanian Devil",
+        "image": "/img/taz.png",
+        "count": 0
+    },
+    {
+        "id": 12,
+        "name": "Tweety Bird",
+        "image": "/img/tweety.png",
+        "count": 0
+    }
+]

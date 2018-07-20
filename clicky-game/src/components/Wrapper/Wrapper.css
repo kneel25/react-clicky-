@@ -1,0 +1,13 @@
+.wrapper {
+    padding-top: 50px;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/a0/14/c6/a014c6ba289500ece032cb67cbbdc2ab.jpg");
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+}
+
+/* #ECEFF1 */
