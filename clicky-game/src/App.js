@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ToonCard from "./components/ToonCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-// import Shake from "./components/Shake";
 import toons from "./toons.json";
 import './App.css';
 
@@ -26,6 +25,7 @@ gameOver = () => {
   
 }
 
+//_________________________________________________________
 clickCount = id => {
   console.log("did it click?");
   this.state.toons.find((o, i) => {
@@ -47,12 +47,14 @@ clickCount = id => {
     return true;
   });
 }
+//________________________________________________________________
 
   render() {
     return (
      
       <Wrapper>
       <Title score={this.state.score} highscore={this.state.highscore}>Looney Tunes</Title>
+
         {this.state.toons.map(toon => (
           <ToonCard
             clickCount={this.clickCount}

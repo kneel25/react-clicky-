@@ -2,7 +2,8 @@ import React from "react";
 import "./ToonCard.css";
 
 const ToonCard = props => (
-  <div className="card">
+
+  <div className="card" onClick={() => props.clickCount(props.id)}>
     <div className="img-container">
       <img alt={props.name} src={props.image} />
     </div>
