@@ -14,11 +14,13 @@ state = {
 };
 
 gameOver = () => {
+  
   if (this.state.score > this.state.highscore) {
     this.setState({highscore: this.state.score}, function() {
-      console.log(this.state.highscore);
+      console.log("thisis the high score" + this.state.highscore);
     });
   }
+  this.setState({score: 0 });
   this.state.toons.forEach(toon => {
     toon.count = 0;
   });
@@ -27,14 +29,18 @@ gameOver = () => {
 
 //_________________________________________________________
 clickCount = id => {
-  console.log("did it click?");
-  this.state.toons.find((o, i) => {
-    if (o.id === id) {
+  // console.log("did it click?");
+
+  this.state.toons.map((object, i) => {
+    if (object.id === id) {
+      // console.log(object.id)
+
       if(toons[i].count === 0){
         toons[i].count = toons[i].count + 1;
-        this.setState({score : this.state.score + 1}, function(){
-          console.log(this.state.score);
-        });
+        this.setState({score : this.state.score + 1});
+          
+      
+
 
         //shake
         this.state.toons.sort(() => Math.random() - 0.5)
@@ -50,6 +56,7 @@ clickCount = id => {
 //________________________________________________________________
 
   render() {
+    console.log("this is the score " + this.state.score);
     return (
      
       <Wrapper>
